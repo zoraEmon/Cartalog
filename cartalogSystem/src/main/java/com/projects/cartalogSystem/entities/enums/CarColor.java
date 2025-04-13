@@ -2,6 +2,7 @@ package com.projects.cartalogSystem.entities.enums;
 
 import lombok.Getter;
 
+//This is the enum class for car colors.
 public enum CarColor {
     RED("Red", "#fc0303"),
     GREEN("Green", "#03fc4e"),

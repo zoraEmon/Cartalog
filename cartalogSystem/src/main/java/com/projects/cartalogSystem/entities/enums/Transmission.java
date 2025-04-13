@@ -1,5 +1,7 @@
 package com.projects.cartalogSystem.entities.enums;
 
+
+//This is for the transmissions.
 public enum Transmission {
     AUTOMATIC("Automatic"),
     MANUAL("Manual"),
@@ -10,8 +12,6 @@ public enum Transmission {
     Transmission(String name) {
         this.name = name;
     }
-
-
 
     @Override
     public String toString() {

@@ -52,7 +52,6 @@ public class AdminController {
             return new ResponseEntity<>("Email already exists", HttpStatus.BAD_REQUEST);
         }
 
-
         Admin newAdmin = new Admin(username, passwordEncoder.encode(password));
         newAdmin.setEmail(email);
         adminRepository.save(newAdmin);
@@ -69,7 +68,7 @@ public class AdminController {
             Authentication authentication = authenticationManager.authenticate(
                     new UsernamePasswordAuthenticationToken(username, password)
             );
-            SecurityContextHolder.getContext().setAuthentication(authentication); // Set the authentication in the context
+            SecurityContextHolder.getContext().setAuthentication(authentication);
 
             UserDetails userDetails = adminDetailsService.loadUserByUsername(username);
             String jwt = jwtUtil.generateToken(userDetails);
