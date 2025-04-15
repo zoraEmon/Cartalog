@@ -20,8 +20,8 @@ public class CarServiceImp implements CarService {
     private final CarRepository carRepository;
     private final CategoryRepository categoryRepository;
     private final SupplierRepository supplierRepository;
-    private final CategoryServiceImp categoryService;
-    private final SupplierServiceImp supplierService;
+
+
 
     @Override
     public CarResponseDTO createCar(CarCreateDTO carCreateDTO) {
