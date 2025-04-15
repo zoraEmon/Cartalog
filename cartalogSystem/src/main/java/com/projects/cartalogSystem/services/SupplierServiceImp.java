@@ -67,7 +67,7 @@ public class SupplierServiceImp implements SupplierService {
 
     private SupplierResponseDTO mapSupplierToSupplierResponseDTO(Supplier supplier) {
         return new SupplierResponseDTO(
-                supplier.getId(),
+                supplier.getSupplierId(),
                 supplier.getName(),
                 supplier.getEmail(),
                 supplier.getAddress(),

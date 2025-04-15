@@ -61,7 +61,7 @@ public class CategoryServiceImp implements CategoryService {
 
     private CategoryResponseDTO mapCategoryToCategoryResponseDTO(Category category) {
         return new CategoryResponseDTO(
-                category.getId(),
+                category.getCategoryId(),
                 category.getName(),
                 category.getDescription(),
                 category.getCreatedAt(),
@@ -69,5 +69,6 @@ public class CategoryServiceImp implements CategoryService {
                 category.isDeleted()
         );
     }
+
 
 }

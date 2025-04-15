@@ -19,10 +19,11 @@ import java.util.Date;
 @AllArgsConstructor
 public class Car {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long carId;
 
     private String description;
 
+    @Column(nullable = false)
     private String name;
 
     @ManyToOne(fetch = FetchType.LAZY)
