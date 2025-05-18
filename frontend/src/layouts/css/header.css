@@ -1,0 +1,210 @@
+  /* start of header properties */
+  .header{
+    z-index: 2;
+
+    position: sticky;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--primary-color-l2);
+    box-shadow: 0px 0px 10px 0px var(--primary-color-d2);
+    
+
+    display: grid;
+    grid-template-columns: minmax(0,1fr) minmax(768px,2fr) minmax(0,1fr);
+    grid-template-rows: 60px;
+    grid-template-areas: "space1 navbtns space2";
+}
+
+.header_nav{
+    grid-area: navbtns;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--primary-color-l2);
+    position: relative;
+
+    color: var(--text-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px;
+    grid-template-areas: "home catalog about";
+ }
+
+ .header_btns{
+    display: flex;
+     width: 100%;
+     height: calc(100% - 2px);
+     background-color: var(--primary-color);
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     
+     font-size: 2rem;
+
+     color: var(--text-color);
+
+ }
+
+ .header_btns:hover{   
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color-l1);
+    position: relative; 
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3) inset, -5px -5px 5px rgb(125,125,125, 0.2 ) inset;
+    text-decoration: underline;
+    border-left:  1px solid var(--primary-color-l1);
+    border-right:  1px solid var(--primary-color-l1);
+    border-bottom: 1px solid var(--primary-color-l2);
+    }
+
+ .hdr_home{
+     grid-area: home;
+ }
+
+ .hdr_catalog{
+    grid-area: catalog;
+}
+
+.hdr_inventory{
+    grid-area: inventory;
+}
+
+.hdr_recommendations{
+    grid-area: recommendations;
+}
+
+.hdr_about{
+    grid-area: about;
+}
+
+.header_small{
+  display: none;
+  grid-area: header;
+  grid-template-columns: 180px 1fr 60px;
+  grid-template-rows: 60px;
+  grid-template-areas: 
+  "pcms space sidebar"
+  ;
+  text-align: center;
+  justify-content: left;
+  font-size: 3rem;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+  border-bottom: 1px solid var(--primary-color-l2);
+  box-shadow: 0px 0px 10px 0px var(--primary-color-d2);
+  position: relative;
+}
+
+.title{
+  grid-area: Title;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  justify-content: left;
+  align-items: center;
+  }
+
+  @media (max-width: 768px){
+    .header{
+      display: none;
+  }
+  .header_small{
+      z-index: 2;
+      grid-area: header;
+      display: grid;
+      grid-template-columns: 150px 1fr 60px 5px;
+      grid-template-rows: 60px;
+      grid-template-areas: 
+      "home space sidebar space"
+      ;
+      text-align: center;
+      justify-content: left;
+      font-size: 3rem;
+  }  
+  .hdr_home{
+    position: relative;
+    grid-area: home;
+    padding-left: 5px;
+  }
+  .sidebar_btn{
+      display: block;
+      grid-area: sidebar;
+      width: 42px;
+      height: 42px;
+      background-color: var(--primary-color-l1);
+      top: 0px;
+      left: 9px;
+      position: relative;   
+      border-radius: 5px 
+  }
+
+  .sidebar_btn:hover{
+      background-color: var(--primary-color-l2);
+      position: relative; 
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3) inset, -5px -5px 5px rgb(125,125,125, 0.2 ) inset;
+      text-decoration: underline;
+      border-left:  1px solid var(--primary-color-l1);
+      border-right:  1px solid var(--primary-color-l1);
+      border-bottom: 1px solid var(--primary-color-l2);
+  }
+  .sidebar{
+    z-index: 1;
+    position: absolute;
+    top: 60px;
+    left: calc(100dvw - 240px);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 60px 60px 1fr;
+    grid-template-areas: "home" "catalog" "about" "space";
+   
+    width: 240px;
+    height: 200px;
+    background-color: var(--primary-color);
+    border-right: 1px solid var(--primary-color-l2);
+    box-shadow: 0px 0px 10px 0px var(--primary-color-d2), 5px rgba(0, 0, 0, 0.3) inset;
+  }
+  
+  .sidebar_btns{
+    display: flex;
+     width: 100%;
+     height: calc(100% - 2px);
+     background-color: var(--primary-color);
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     
+     font-size: 2rem;
+
+     color: var(--text-color);
+ }
+
+ .sidebar_btns:hover{   
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color-l1);
+    position: relative; 
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3) inset, -3px -3px 3px rgb(125,125,125, 0.2 ) inset;
+    text-decoration: underline;
+    border-left:  1px solid var(--primary-color-l1);
+    border-right:  1px solid var(--primary-color-l1);
+    border-bottom: 2px solid var(--primary-color-l1);
+    }
+}
+  
+  
+  
+/* end of header properties */

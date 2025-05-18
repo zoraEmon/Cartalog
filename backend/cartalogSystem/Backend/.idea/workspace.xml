@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1a642f2-3095-4328-999d-3430a2ff5ae8" name="Changes" comment="Third Commit.&#10;&#10;Added Car logic. We can now add, get, update, delete cars." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="8ecef0cc237cbfc185118626e5ffe9a7db1a5774" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zoraEmon&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/zoraEmon/Cartalog.git&quot;,
+    &quot;accountId&quot;: &quot;631bffed-74ab-4e53-8695-ffc983decc00&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2vOK4NfLeUSUVvWlsMHqp2anjMk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.CartalogSystemApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Zora/Desktop/Programming/College/cartalogSystem/Backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="CartalogSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="cartalogSystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.projects.cartalogSystem.CartalogSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1a642f2-3095-4328-999d-3430a2ff5ae8" name="Changes" comment="" />
+      <created>1744010488085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744010488085</updated>
+      <workItem from="1744010489219" duration="529000" />
+      <workItem from="1744011313616" duration="11124000" />
+      <workItem from="1744027409636" duration="2857000" />
+      <workItem from="1744194070155" duration="5697000" />
+      <workItem from="1744317416012" duration="4000" />
+      <workItem from="1744358632543" duration="325000" />
+      <workItem from="1744360293358" duration="9204000" />
+      <workItem from="1744464401604" duration="3979000" />
+      <workItem from="1744530284763" duration="15934000" />
+      <workItem from="1744600755811" duration="2032000" />
+      <workItem from="1744711610137" duration="11055000" />
+      <workItem from="1744724629640" duration="197000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit in this project.&#10;&#10;Has a JWT token generator for admin authentication.&#10;&#10;Has a database for admins, cars, categories, and suppliers.">
+      <option name="closed" value="true" />
+      <created>1744375442515</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744375442515</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Change the id attribute of Supplier and Category.">
+      <option name="closed" value="true" />
+      <created>1744468224916</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744468224916</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Second Commit.&#10;&#10;Added supplier and category services. Though, they are not yet tested.">
+      <option name="closed" value="true" />
+      <created>1744543051843</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744543051843</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Third Commit.&#10;&#10;Added Car logic. We can now add, get, update, delete cars.">
+      <option name="closed" value="true" />
+      <created>1744723500909</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744723500909</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Third Commit.&#10;&#10;Added Car logic. We can now add, get, update, delete cars.">
+      <option name="closed" value="true" />
+      <created>1744723559452</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744723559452</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit in this project.&#10;&#10;Has a JWT token generator for admin authentication.&#10;&#10;Has a database for admins, cars, categories, and suppliers." />
+    <MESSAGE value="Change the id attribute of Supplier and Category." />
+    <MESSAGE value="Second Commit.&#10;&#10;Added supplier and category services. Though, they are not yet tested." />
+    <MESSAGE value="Third Commit.&#10;&#10;Added Car logic. We can now add, get, update, delete cars." />
+    <option name="LAST_COMMIT_MESSAGE" value="Third Commit.&#10;&#10;Added Car logic. We can now add, get, update, delete cars." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/cartalogSystem/src/main/java/com/projects/cartalogSystem/entities/Supplier.java</url>
+          <line>29</line>
+          <properties field="website" class="com.projects.cartalogSystem.entities.Supplier" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cartalogSystem/src/main/java/com/projects/cartalogSystem/controllers/AdminController.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,118 @@
+/* start of footer properties */
+.footer{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 120px 360px;
+    grid-template-areas:
+    "ftr_title space"
+    "ftr_catalog ftr_about";
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    justify-content: left;
+    align-items: Top;
+    color: var(--text-color);
+    border-top: 2px solid var(--primary-color-l2);
+}
+
+.footer_btns{
+    width: fit-content;
+    height: 100%;
+    background-color: transparent;
+    
+}
+.footer_title{
+    grid-area: ftr_title;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: -5px;
+    padding-right: 20px;
+    background-color: var(--primary-color-);
+    position: relative; 
+    font-size: clamp(1.5rem, 5rem ,5.5rem);
+}
+
+.footer_catalog{
+    grid-area: ftr_catalog;
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-template-rows: 45px 1fr ;
+    grid-template-areas: "catalog catalog" "categories letters ";
+    width: 100%;
+    height: 100%;
+    color: var(--primary-color-);
+    position: relative; 
+    padding-left: 20px;
+    }
+
+
+.footer_catalog_title{
+    display: flex;
+    grid-area: catalog;
+    padding-left: 5px;
+    padding-right: 20px;
+    font-size: 2.5rem;
+    justify-content: left;
+    align-content: center;
+}
+.footer_catalog_letters{
+    padding-left: 20vh;
+    grid-area: title;
+}
+.footer_catalog_categories{
+    padding-top: 15px;
+    grid-area: categories;
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 5vh;
+    position: relative;
+    border-right: 2px solid var(--primary-color-l2);
+}
+.footer_about{
+    grid-area: ftr_about;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px  1fr;
+    grid-template-areas:
+    "ftr_about_title"
+    "ftr_about_links";
+    
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: -5px;
+    background-color: var(--primary-color-);
+    position: relative; 
+    font-size: 2.5rem;
+}
+.footer_about_title{
+    display: flex;
+    grid-area: ftr_about_title;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2.5rem;
+    justify-content: left;
+    align-content: center;
+}
+.footer_about_links{
+    display: flex;
+    grid-area: ftr_about_links;
+    padding-top: 25px;
+    padding-left: 25px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.footer_tables{
+    padding: 10px;
+    width: fit-content;
+    height: 100%;
+}
+  /* end of footer properties */

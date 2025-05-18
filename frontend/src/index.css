@@ -1,0 +1,258 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+  font-family: "Urbanist", sans-serif;
+}
+
+:root{
+  /* primary color */
+        --primary-color: #3a393b;
+        --primary-color-d1: #19191a;
+        --primary-color-d2: #0f0f10;
+        --primary-color-l1: rgb(86, 86, 87);
+        --primary-color-l2: #6e6e6f;
+        --primary-color-l3: #7e7e7f;
+        --primary-color-l4: #8e8e8f;
+        --primary-color-l5: #9e9e9f;
+        
+        --text-color: rgb(217, 217, 217);
+  }
+  
+  
+  *{
+        margin: 0;
+        padding: 0;
+        font-family: "Urbanist  ", sans-serif;
+    }
+ 
+  /* grid properties*/
+  
+  .gridmain{
+        width: 100vw;
+        
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px  minmax(calc(100dvh - 60px), auto) 480px;
+  }
+  
+  aside{
+        grid-area: sidebar; 
+        border-right: var(--primary-color-l2) 1px solid;
+  }
+  header{
+        z-index: 2;
+        grid-area: header;
+        position: sticky;
+        top: 0;
+  }
+  footer{
+        z-index: 2;
+        grid-area: footer;
+        position: sticky;
+        top: 0;
+        
+    }
+  main{
+        z-index: 1;
+
+        grid-area: main;
+  }
+
+/* end of grid properties */
+  
+/* start of sidebar properties NOTE: currently unused, don't remove yet*/
+  .sidebar{
+      z-index: 3;
+      display: grid;
+      grid-template-columns: 200px;
+      grid-template-rows: 60px 60px 60px 60px 1fr 60px 240px;
+      grid-template-areas: 
+      "btn1"
+      "btn2"
+      "btn3"
+      "btn4"
+      "space"
+      "footer"
+      "detes"
+      ;
+      gap: 10px;
+      width: 200px;
+      height: 100%;
+      background-color: var(--primary-color-d1);
+      position: fixed;
+      top: 0;
+      left: 0;
+      border-right: var(--primary-color-l1) 1px solid;
+      box-shadow: 0px 0px 10px 0px var(--primary-color-d2);
+  }
+  
+  .sb_navs{   
+      display: grid;
+      grid-template-columns: 60px 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: 
+      "btn def";
+      width: 100%;
+      height: 100%;
+      background-color: var(--primary-color-d1);
+      position: relative; 
+      border-right: var(--primary-color-l1) 1px solid;
+  }
+  
+  .sb_navs:hover{   
+      width: 100%;
+      height: 100%;
+      background-color: var(--primary-color);
+      position: relative; 
+      font-weight: bold;
+      
+  }
+  
+  .sb_buttons{
+      grid-area: btn;
+      width: 42px;
+      height: 42px;
+      background-color: var(--primary-color-l1);
+      top: 9px;
+      left: 9px;
+      position: relative;   
+      border-radius: 5px 
+  }
+  
+  .sb_buttons:hover{
+       background-color: var(--primary-color-l2);
+  }
+  
+  .definition{
+      grid-area: def;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      color: var(--text-color);
+  }
+  
+  .btn1{
+      grid-area: btn1;
+      position: relative;
+  }
+  
+  .btn2{
+      grid-area: btn2;
+      position: relative;
+  }
+  
+  .btn3{
+      grid-area: btn3;
+      position: relative;
+  }
+  
+  .btn4{
+     position: relative;
+  }
+  
+  .btn5{
+      display: none;
+      position: relative;
+   }
+
+  /* end of sidebar properties */
+  .heading{
+    font-size: clamp(2rem,5vw,5rem);
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;   
+  }
+  .heading1{
+    font-size: clamp(1rem,3vw,3rem);
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;   
+  }
+  .paragraph{
+    font-size: clamp(0.5rem,3vw,2rem);
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;   
+  }
+  .paragraph1{
+    font-size: clamp(1rem,3vw,2rem);
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;   
+  }
+
+  @media (max-width: 768px){
+      .gridmain{
+          grid-template-areas: 
+          "header"
+          "main"
+          "footer";
+          grid-template-columns: 1fr;
+          grid-template-rows: 60px calc(100% - 60px);
+      }
+     
+      .btn5{
+          display: block;
+          grid-area: Etc;
+          width: 42px;
+          height: 42px;
+          background-color: var(--primary-color-l1);
+          top: 0px;
+          left: 9px;
+          position: relative;   
+          border-radius: 5px 
+      }
+      .btn5:hover{
+          background-color: var(--primary-color-l2);
+     }
+     
+  } 
+
+/* Remove all the custom developer card styles we added earlier */
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+.animate-slide-left {
+    animation: slideLeft 0.3s ease-in-out;
+}
+
+.animate-slide-right {
+    animation: slideRight 0.3s ease-in-out;
+}
